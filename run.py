@@ -41,7 +41,6 @@ def download_photos(url,filename):
 def finish(dir_name):
 	print('Done. downloaded {}'.format(len(progress)))
 	os.chdir('..')
-	#target_dir = work_dir += dir_name		
 	target_dir = work_dir + "/" + dir_name
 	print(target_dir)
 	call(["open", target_dir])
