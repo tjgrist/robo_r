@@ -4,6 +4,8 @@ Make sure you have python 3 and pip installed
 
 install dependencies by running 'pip install -r requirements.txt.'
 
+before running, make sure to have environment variables set for the bot's requirements in run.py (i.e. secret, username, password)
+
 run the script 'python3 run.py'
 
 1. choose a subreddit from which to download photos
